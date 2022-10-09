@@ -20,14 +20,14 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="15dp"
         android:fontFamily="@font/roboto_medium"
-        android:text="@string/select_role_txt"
+        android:text="@string/select_user_txt"
         android:textColor="@color/white"
         android:textSize="50sp">
     </TextView>
 
 
     <androidx.cardview.widget.CardView
-        android:id="@+id/cv_admin"
+        android:id="@+id/cv_newuser"
         android:layout_width="280dp"
         android:layout_height="280dp"
         android:layout_above="@+id/center_horizontal_ref_line"
@@ -40,14 +40,14 @@
         app:cardPreventCornerOverlap="true">
 
         <com.airbnb.lottie.LottieAnimationView
-            android:id="@+id/id_typeofuser_admin_icon"
+            android:id="@+id/id_newuser_seleceuser_lottieanim"
             android:layout_width="150dp"
             android:layout_height="200dp"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="10dp"
             app:lottie_autoPlay="true"
             app:lottie_loop="true"
-            app:lottie_rawRes="@raw/admin_icon_lottieanimation">
+            app:lottie_rawRes="@raw/newuser_selectuser_lottieanimation">
         </com.airbnb.lottie.LottieAnimationView>
 
         <!--        <ImageView-->
@@ -62,7 +62,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="bottom|center_horizontal"
             android:layout_marginBottom="30dp"
-            android:text="@string/admin_txt"
+            android:text="@string/newuser_txt"
             android:textColor="@color/white"
             android:textSize="30sp"
             android:textStyle="bold">
@@ -71,7 +71,7 @@
 
 
     <androidx.cardview.widget.CardView
-        android:id="@+id/cv_user"
+        android:id="@+id/cv_existinguser"
         android:layout_width="280dp"
         android:layout_height="280dp"
         android:layout_below="@+id/center_horizontal_ref_line"
@@ -88,14 +88,15 @@
             android:layout_height="wrap_content">
 
             <com.airbnb.lottie.LottieAnimationView
-                android:id="@+id/id_typeofuser_male_user_icon"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:id="@+id/id_existinguser_selectuser_lottieanim"
+                android:layout_width="250dp"
+                android:layout_height="200dp"
+                android:layout_centerHorizontal="true"
                 android:layout_gravity="center_horizontal"
-                android:layout_marginTop="30dp"
+                android:layout_marginTop="20dp"
                 app:lottie_autoPlay="true"
                 app:lottie_loop="true"
-                app:lottie_rawRes="@raw/user_male_icon_lottieanimation">
+                app:lottie_rawRes="@raw/existinguser_selectuser_lottieanimation">
             </com.airbnb.lottie.LottieAnimationView>
 
         </RelativeLayout>
@@ -111,7 +112,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="bottom|center_horizontal"
             android:layout_marginBottom="30dp"
-            android:text="@string/user_txt"
+            android:text="@string/existinguser_txt"
             android:textColor="@color/white"
             android:textSize="30sp"
             android:textStyle="bold">

@@ -13,14 +13,17 @@ public class activity_login_admin extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login_admin);
 
-        Intent act_user_login = new Intent(activity_login_admin.this, activity_login_user.class);
 
-        new Handler().postDelayed(new Runnable() {
-            @Override
-            public void run() {
-              startActivity(act_user_login);
-            }
-        },3000);
+
+
+//        Intent act_user_login = new Intent(activity_login_admin.this, activity_login_user.class);
+//
+//        new Handler().postDelayed(new Runnable() {
+//            @Override
+//            public void run() {
+//              startActivity(act_user_login);
+//            }
+//        },3000);
 
     }
 }

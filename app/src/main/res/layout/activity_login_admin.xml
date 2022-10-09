@@ -42,7 +42,8 @@
         android:layout_marginTop="10dp"
         app:lottie_autoPlay="true"
         app:lottie_loop="true"
-        app:lottie_rawRes="@raw/admin_icon_lottieanimation"></com.airbnb.lottie.LottieAnimationView>
+        app:lottie_rawRes="@raw/admin_icon_lottieanimation">
+    </com.airbnb.lottie.LottieAnimationView>
 
     <EditText
         android:id="@+id/email_et"

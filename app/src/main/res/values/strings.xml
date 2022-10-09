@@ -16,4 +16,7 @@
     <string name="txt_sign_in_using">Sign In Using :</string>
     <string name="txt_full_name_newuser">Full Name</string>
     <string name="txt_mobile_number_newuser">Mobile Number</string>
+    <string name="newuser_txt">New User</string>
+    <string name="existinguser_txt">Existing User</string>
+    <string name="select_user_txt">Select User</string>
 </resources>
