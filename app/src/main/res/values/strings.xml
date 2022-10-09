@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">House Rent App</string>
+    <string name="copyright">Copyright © 2022 - Rohit Kadu</string>
+    <string name="tagline">Find Your Dream Rental Property Here</string>s
+    <string name="admin_txt">Admin</string>
+    <string name="user_txt">User</string>
+    <string name="select_role_txt">Select Role</string>
+    <string name="email_address_hint">someone@example.com</string>
+    <string name="email_et_txt">Email Address</string>
+    <string name="password_et_txt">Password</string>
+    <string name="sign_in_btn_txt">Sign In</string>
+    <string name="welcome_back_txt">Welcome Back</string>
+    <string name="register_btn_txt">Register</string>
+    <string name="signin_to_register_txt">Don\'t have an account?</string>
+    <string name="or_line">------------------------ OR --------------------------</string>
+    <string name="txt_sign_in_using">Sign In Using :</string>
+    <string name="txt_full_name_newuser">Full Name</string>
+    <string name="txt_mobile_number_newuser">Mobile Number</string>
+</resources>

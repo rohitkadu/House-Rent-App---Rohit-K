@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".splash_activity"
+    android:background="@color/dark_grey">
+
+
+    <RelativeLayout
+        android:id="@+id/id_splash_linearlayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/id_splash_renthouse_lottieanimation"
+        android:layout_marginBottom="-100dp">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/id_splash_houseicon_lottieanimation"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/splash_house_icon_lottieanimation"></com.airbnb.lottie.LottieAnimationView>
+
+        <TextView
+            android:id="@+id/id_splash_app_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_toEndOf="@id/id_splash_houseicon_lottieanimation"
+            android:fontFamily="@font/roboto_regular"
+            android:text="@string/app_name"
+            android:textColor="@color/white"
+            android:textSize="35sp"></TextView>
+    </RelativeLayout>
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/id_splash_renthouse_lottieanimation"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="50dp"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/splash_renthouse_lottieanimation"></com.airbnb.lottie.LottieAnimationView>
+
+
+    <TextView
+        android:id="@+id/tagline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/id_splash_renthouse_lottieanimation"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-92dp"
+        android:fontFamily="@font/roboto_regular"
+        android:text="@string/tagline"
+        android:textColor="@color/white"
+        android:textSize="20sp"></TextView>
+
+
+    <TextView
+        android:id="@+id/id_splash_copyright"
+        android:fontFamily="@font/roboto_regular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="@string/copyright"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="5dp">
+    </TextView>
+
+</RelativeLayout>

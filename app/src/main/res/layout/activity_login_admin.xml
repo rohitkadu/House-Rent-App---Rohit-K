@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_grey"
+    android:backgroundTint="@color/dark_grey"
+    tools:context=".activity_login_admin">
+
+    <TextView
+        android:id="@+id/id_txt_welcome_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome_back_txt"
+        android:textColor="@color/white"
+        android:fontFamily="@font/roboto_medium"
+        android:layout_centerHorizontal="true"
+        android:textSize="40sp"
+        android:layout_marginTop="15dp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/id_welcome_admin_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/id_txt_welcome_back"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/roboto_black"
+        android:text="@string/admin_txt"
+        android:textColor="@color/white"
+        android:textSize="40sp">
+    </TextView>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/id_admin_anim_lottie"
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        android:layout_below="@id/id_welcome_admin_txt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/admin_icon_lottieanimation"></com.airbnb.lottie.LottieAnimationView>
+
+    <EditText
+        android:id="@+id/email_et"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_above="@+id/password_et"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/custom_input"
+        android:drawableStart="@drawable/ic_custom_email"
+        android:drawablePadding="12dp"
+        android:drawableTint="@color/white"
+        android:ems="10"
+        android:fontFamily="@font/roboto_regular"
+        android:hint="@string/email_et_txt"
+        android:inputType="textEmailAddress"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="14sp">
+    </EditText>
+
+    <EditText
+        android:id="@+id/password_et"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_above="@id/btn_sign_in"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/custom_input"
+        android:drawableStart="@drawable/ic_lock"
+        android:drawablePadding="12dp"
+        android:drawableTint="@color/white"
+        android:ems="10"
+        android:fontFamily="@font/roboto_regular"
+        android:hint="@string/password_et_txt"
+        android:inputType="textPassword"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="14sp">
+    </EditText>
+
+
+    <Button
+        android:id="@+id/btn_sign_in"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/custom_button"
+        android:backgroundTint="#FFF5F5"
+        android:fontFamily="@font/roboto_bold"
+        android:text="@string/sign_in_btn_txt"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="20sp">
+    </Button>
+
+</RelativeLayout>

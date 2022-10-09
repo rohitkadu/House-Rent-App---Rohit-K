@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_typeofuser"
+    android:background="@color/dark_grey">
+
+    <RelativeLayout
+        android:id="@+id/center_horizontal_ref_line"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true">
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/roboto_medium"
+        android:text="@string/select_role_txt"
+        android:textColor="@color/white"
+        android:textSize="50sp"></TextView>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        android:layout_above="@+id/center_horizontal_ref_line"
+        android:layout_centerHorizontal="true"
+        app:cardBackgroundColor="@color/grey_overlay"
+        app:cardCornerRadius="25dp"
+        app:cardElevation="10dp"
+        app:cardMaxElevation="12dp"
+        app:cardPreventCornerOverlap="true"
+        android:layout_marginBottom="-20dp">
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/id_typeofuser_admin_icon"
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            app:lottie_rawRes="@raw/admin_icon_lottieanimation"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp">
+        </com.airbnb.lottie.LottieAnimationView>
+
+<!--        <ImageView-->
+<!--            android:id="@+id/id_typeofuser_admin_icon"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:src="@drawable/ic_launcher_background">-->
+<!--        </ImageView>-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginBottom="30dp"
+            android:text="@string/admin_txt"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textStyle="bold">
+        </TextView>
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        android:layout_below="@+id/center_horizontal_ref_line"
+        android:layout_centerHorizontal="true"
+        app:cardBackgroundColor="@color/grey_overlay"
+        app:cardCornerRadius="25dp"
+        app:cardElevation="10dp"
+        app:cardMaxElevation="12dp"
+        app:cardPreventCornerOverlap="true"
+        android:layout_marginTop="50dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/id_typeofuser_male_user_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:lottie_rawRes="@raw/user_male_icon_lottieanimation"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp">
+            </com.airbnb.lottie.LottieAnimationView>
+
+        </RelativeLayout>
+<!--        <ImageView-->
+<!--            android:id="@+id/id_typeofuser_user_icon"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:src="@drawable/ic_launcher_background">-->
+<!--        </ImageView>-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginBottom="30dp"
+            android:text="@string/user_txt"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textStyle="bold">
+        </TextView>
+    </androidx.cardview.widget.CardView>
+
+
+
+
+</RelativeLayout>
