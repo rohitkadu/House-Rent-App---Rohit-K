@@ -9,6 +9,8 @@
 
     <color name="green_light">#07D9B2</color>
     <color name="green_btn">#03DAC5</color>
+    <color name="verify_green">#17C37E</color>
+
     <color name="blue">#303F9F</color>
     <color name="red">#C62828</color>
     <color name="purple">#673AB7</color>

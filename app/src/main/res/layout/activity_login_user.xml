@@ -158,8 +158,7 @@
         android:layout_below="@id/or_line"
         android:layout_marginTop="20dp"
         android:layout_toEndOf="@id/sign_in_using"
-        android:src="@drawable/google_logo">
-    </ImageView>
+        android:src="@drawable/google_logo"></ImageView>
     <TextView
         android:id="@+id/id_linkto_register"
         android:layout_width="wrap_content"

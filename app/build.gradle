@@ -41,4 +41,5 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
     implementation 'com.google.firebase:firebase-database:19.2.1'
     implementation 'com.google.android.gms:play-services-auth:20.3.0'
+    implementation 'com.squareup.picasso:picasso:2.8'
 }

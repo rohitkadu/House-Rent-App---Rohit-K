@@ -25,7 +25,8 @@
             android:layout_marginBottom="10dp"
             app:lottie_autoPlay="true"
             app:lottie_loop="true"
-            app:lottie_rawRes="@raw/splash_house_icon_lottieanimation"></com.airbnb.lottie.LottieAnimationView>
+            app:lottie_rawRes="@raw/splash_house_icon_lottieanimation">
+        </com.airbnb.lottie.LottieAnimationView>
 
         <TextView
             android:id="@+id/id_splash_app_name"
@@ -36,7 +37,8 @@
             android:fontFamily="@font/roboto_regular"
             android:text="@string/app_name"
             android:textColor="@color/white"
-            android:textSize="35sp"></TextView>
+            android:textSize="35sp">
+        </TextView>
     </RelativeLayout>
 
 
@@ -48,7 +50,8 @@
         android:layout_marginTop="50dp"
         app:lottie_autoPlay="true"
         app:lottie_loop="true"
-        app:lottie_rawRes="@raw/splash_renthouse_lottieanimation"></com.airbnb.lottie.LottieAnimationView>
+        app:lottie_rawRes="@raw/splash_renthouse_lottieanimation">
+    </com.airbnb.lottie.LottieAnimationView>
 
 
     <TextView
@@ -61,7 +64,8 @@
         android:fontFamily="@font/roboto_regular"
         android:text="@string/tagline"
         android:textColor="@color/white"
-        android:textSize="20sp"></TextView>
+        android:textSize="20sp">
+    </TextView>
 
 
     <TextView

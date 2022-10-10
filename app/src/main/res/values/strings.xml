@@ -19,4 +19,6 @@
     <string name="newuser_txt">New User</string>
     <string name="existinguser_txt">Existing User</string>
     <string name="select_user_txt">Select User</string>
+    <string name="sign_out_btn_txt">Sign Out</string>
+    <string name="continue_btn_txt">Continue</string>
 </resources>
