@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "388415667995",
+    "project_id": "house-rent-app-rohit",
+    "storage_bucket": "house-rent-app-rohit.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:388415667995:android:821a97807cfc8a14361dbe",
+        "android_client_info": {
+          "package_name": "com.example.houserentappproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "388415667995-kjp2eo67absesg8p786o5rvf3d48i1dd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.houserentappproject",
+            "certificate_hash": "f2e1e59e4e9561d008262b689ce6c526a654c87a"
+          }
+        },
+        {
+          "client_id": "388415667995-iuus1u1hi3gsq64bj8j2l35mns2akj71.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDoa6OMydvpcFsWvjTKYHExGcMNc3FEobc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "388415667995-iuus1u1hi3gsq64bj8j2l35mns2akj71.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
