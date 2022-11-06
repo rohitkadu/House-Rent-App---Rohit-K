@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_successful_google_signin"
+    android:background="@color/dark_grey">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/id_successful_signin_lottie"
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        app:lottie_rawRes="@raw/successful_google_signin_lottieanim"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        android:layout_marginTop="30dp">
+    </com.airbnb.lottie.LottieAnimationView>
+
+    <RelativeLayout
+
+        android:layout_width="180dp"
+        android:layout_height="250dp"
+        android:background="@drawable/verify_bg_card"
+        android:layout_marginTop="260dp"
+        android:layout_marginLeft="10dp">
+
+        <ImageView
+            android:id="@+id/profile_image"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="15dp"
+            android:src="@drawable/ic_person">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/profile_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rohit Kadu"
+            android:textSize="20sp"
+            android:layout_below="@+id/profile_image"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/white"
+            android:fontFamily="@font/roboto_bold">
+        </TextView>
+
+        <TextView
+            android:id="@+id/profile_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/profile_name"
+            android:text="rohitkadu@gmail.com"
+            android:textColor="@color/white"
+            android:layout_marginTop="15dp"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/roboto_bold">
+
+        </TextView>
+
+    </RelativeLayout>
+
+
+    <Button
+        android:id="@+id/btn_sign_out"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/custom_button"
+        android:text="@string/sign_out_btn_txt"
+        android:textColor="@color/black"
+        android:fontFamily="@font/roboto_bold"
+        android:textSize="20sp"
+        android:layout_margin="25dp">
+    </Button>
+
+    <Button
+        android:id="@+id/btn_continue"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/custom_button"
+        android:text="@string/continue_btn_txt"
+        android:textColor="@color/black"
+        android:fontFamily="@font/roboto_bold"
+        android:textSize="20sp"
+        android:layout_margin="25dp">
+    </Button>
+
+</RelativeLayout>
