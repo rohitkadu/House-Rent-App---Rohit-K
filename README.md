@@ -1,3 +1,11 @@
+# Hi, I'm Rohit! 👋
+
+## 🚀 About Me
+Software Engineer 👨‍💻 | Proficient in building scalable web applications with MERN Stack (ReactJS) & Android App Developer
+
+## 🛠 Skills
+React, MERN Stack, Android App, UI/UX, C/C++/Python/JS etc.
+
 # 🏡 HouseRent - Android App
 
 <img src="https://raw.githubusercontent.com/rohitkadu/House-Rent-App---Rohit-K/master/app/src/main/ic_launcher-playstore.png?token=GHSAT0AAAAAACCIVNSE4VY7EQJWKW4JOWMQZCWDZHA" align="left"
@@ -38,14 +46,28 @@ The android app lets you:
 - Admin login functionality to access and manage the app's backend and data
 - Needs no special permissions on Android 6.0+.
 
+
 ## Screenshots
-<img src="https://github.com/rohitkadu/House-Rent-App---Rohit-K/blob/master/output/houserent-splash-screen.png" align="left" width="45%" alt="Screenshot">
-
-<img src="https://github.com/rohitkadu/House-Rent-App---Rohit-K/blob/master/output/multi-screen-mockups-houserent.png" align="right" width="45%" alt="Screenshot">
-
+<div align="center">
+  <img src="https://github.com/rohitkadu/House-Rent-App---Rohit-K/blob/master/output/houserent-splash-screen.png" width="80%" alt="Screenshot">
+</div>
 <p>&nbsp;</p>
-<br>
+
+<div align="center">
+  <img src="https://github.com/rohitkadu/House-Rent-App---Rohit-K/blob/master/output/multi-screen-mockups-houserent.png" width="80%" alt="Screenshot">
+</div>
+<p>&nbsp;</p>
+
 <img src="https://github.com/rohitkadu/House-Rent-App---Rohit-K/blob/master/output/major-screens-houserent.png" width="100%" alt="Screenshot">
+
+# Technologies Used
+This project utilizes the following technologies:
+
+<img src="https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Java_programming_language_logo.svg/64px-Java_programming_language_logo.svg.png" alt="Java" width="64px">
+
+<img src="https://firebase.google.com/downloads/brand-guidelines/PNG/logo-vertical.png" alt="Firebase" width="64px">
+
+<img src="https://developer.android.com/studio/images/studio-icon-preview.svg" alt="Android Studio" width="64px">
 
 
 ## Permissions
@@ -63,6 +85,16 @@ The "Run at startup" permission is only used if Auto-Sync feature is enabled and
 HouseRent app is a free and open source project developed by me. Any contributions are welcome. Here are a few ways you can help:
  * [Report bugs and make suggestions.](https://github.com/rohitkadu/House-Rent-App---Rohit-K/issues)
  * Write some code. Please follow the code style used in the project to make a review process faster.
+
+## Authors
+
+- [@rohitkadu](https://www.github.com/rohitkadu)
+
+
+## Support
+
+For support, email rohitkadufreelance@gmail.com
+
 
 ## License
 
