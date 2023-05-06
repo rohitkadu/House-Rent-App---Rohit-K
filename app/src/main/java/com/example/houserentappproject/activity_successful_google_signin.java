@@ -61,6 +61,9 @@ public class activity_successful_google_signin extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
+//                Intent act_select_city = new Intent(activity_successful_google_signin.this , activity_selectcity.class);
+//                startActivity(act_select_city);
+
                 Intent act_select_city = new Intent(activity_successful_google_signin.this , activity_selectcity.class);
                 startActivity(act_select_city);
 

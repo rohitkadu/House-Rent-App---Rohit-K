@@ -17,6 +17,15 @@
         android:theme="@style/Theme.HouseRentAppProject"
         tools:targetApi="31">
         <activity
+            android:name=".act_directoryhouse"
+            android:exported="false" />
+        <activity
+            android:name=".act_addhouse"
+            android:exported="false" />
+        <activity
+            android:name=".act_adminAct"
+            android:exported="false" />
+        <activity
             android:name=".activity_reg_successful"
             android:exported="false" />
         <activity

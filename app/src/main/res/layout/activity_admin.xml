@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_grey"
+    tools:context=".AdminActivity">
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/id_admin_anim_lottie"
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="61dp"
+        android:layout_marginTop="43dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="408dp"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/admin_icon_lottieanimation"
+        tools:layout_editor_absoluteX="65dp"
+        tools:layout_editor_absoluteY="76dp">
+    </com.airbnb.lottie.LottieAnimationView>
+
+    <Button
+        android:id="@+id/addhousebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="122dp"
+        android:layout_marginTop="357dp"
+        android:layout_marginEnd="117dp"
+        android:layout_marginBottom="326dp"
+        android:text="Add house here"
+        android:textColor="#000"
+        android:textSize="15dp"
+        tools:layout_editor_absoluteX="119dp"
+        tools:layout_editor_absoluteY="429dp" />
+</RelativeLayout>

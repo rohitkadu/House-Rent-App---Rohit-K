@@ -12,12 +12,13 @@
         android:id="@+id/id_txt_welcome_back"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/roboto_medium"
         android:text="@string/welcome_back_txt"
         android:textColor="@color/white"
-        android:fontFamily="@font/roboto_medium"
-        android:layout_centerHorizontal="true"
-        android:textSize="40sp"
-        android:layout_marginTop="15dp">
+        android:textSize="40sp">
+
     </TextView>
 
     <TextView
@@ -149,6 +150,7 @@
         android:text="@string/txt_sign_in_using"
         android:textColor="@color/white"
         android:textSize="25sp">
+
     </TextView>
 
     <ImageView
@@ -158,7 +160,8 @@
         android:layout_below="@id/or_line"
         android:layout_marginTop="20dp"
         android:layout_toEndOf="@id/sign_in_using"
-        android:src="@drawable/google_logo"></ImageView>
+        android:src="@drawable/google_logo">
+    </ImageView>
     <TextView
         android:id="@+id/id_linkto_register"
         android:layout_width="wrap_content"
