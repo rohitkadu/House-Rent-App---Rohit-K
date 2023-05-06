@@ -39,9 +39,9 @@ The android app lets you:
 - Needs no special permissions on Android 6.0+.
 
 ## Screenshots
-<img src="https://github.com/rohitkadu/House-Rent-App---Rohit-K/blob/master/output/houserent-splash-screen.png" align="left" width="48%" alt="Screenshot">
+<img src="https://github.com/rohitkadu/House-Rent-App---Rohit-K/blob/master/output/houserent-splash-screen.png" align="left" width="45%" alt="Screenshot">
 
-<img src="https://github.com/rohitkadu/House-Rent-App---Rohit-K/blob/master/output/multi-screen-mockups-houserent.png" align="right" width="48%" alt="Screenshot">
+<img src="https://github.com/rohitkadu/House-Rent-App---Rohit-K/blob/master/output/multi-screen-mockups-houserent.png" align="right" width="45%" alt="Screenshot">
 
 <p>&nbsp;</p>
 <br>
